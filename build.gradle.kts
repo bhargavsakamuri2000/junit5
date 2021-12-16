@@ -1,6 +1,5 @@
 plugins {
 	id("io.spring.nohttp")
-	id("org.sonarqube" version "3.3")
 	id("io.github.gradle-nexus.publish-plugin")
 	`base-conventions`
 	`build-metadata`
@@ -10,13 +9,6 @@ plugins {
 }
 
 
-sonarqube {
-  properties {
-    property "sonar.projectKey", "bhargavsakamuri2000_junit5"
-    property "sonar.organization", "bhargavsakamuri2000"
-    property "sonar.host.url", "https://sonarcloud.io"
-  }
-}
 description = "JUnit 5"
 
 val license by extra(License(
