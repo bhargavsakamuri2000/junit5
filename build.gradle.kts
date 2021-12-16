@@ -1,6 +1,6 @@
 plugins {
 	id("io.spring.nohttp")
-	id "org.sonarqube" version "3.3"
+	id("org.sonarqube" version "3.3")
 	id("io.github.gradle-nexus.publish-plugin")
 	`base-conventions`
 	`build-metadata`
